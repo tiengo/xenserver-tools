@@ -1,0 +1,4 @@
+DEBIAN_KERNEL_PKG_FILES_i386='linux-image-2.6.32-5-686-bigmem_2.6.32-43.xs6.5.0.299_i386.deb linux-image-2.6-xen_2.6.32+0.xs299_i386.deb'
+DEBIAN_KERNEL_PKG_FILES_amd64='linux-image-2.6.32-5-amd64_2.6.32-43.xs6.5.0.299_amd64.deb linux-image-2.6-xen_2.6.32+0.xs299_amd64.deb'
+DEBIAN_KERNEL_VERSION_i386='2.6.32-5-686-bigmem'
+DEBIAN_KERNEL_VERSION_amd64='2.6.32-5-amd64'
