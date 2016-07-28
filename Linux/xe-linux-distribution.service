@@ -1,0 +1,10 @@
+[Unit]
+Description=XenServer Linux Guest Agent
+
+[Service]
+ExecStartPre=/usr/share/oem/xs/xe-linux-distribution /var/cache/xe-linux-distribution
+Environment="XE_UPDATE_GUEST_ATTRS=/usr/share/oem/xs/xe-update-guest-attrs"
+ExecStart=/usr/share/oem/xs/xe-daemon
+
+[Install]
+WantedBy=multi-user.target
